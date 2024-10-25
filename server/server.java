@@ -26,3 +26,11 @@ class Registration implements Servlet{
         System.out.println("This is Regitration Servlet");
     }
 }
+
+//developer 3
+class User_3 implements Servlet{
+    public void service()
+    {
+        System.out.println("This is a client code and it will be run from the server class");
+    }
+}
